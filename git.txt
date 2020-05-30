@@ -1,3 +1,4 @@
+######################## Comandos básicos do GIT ###################
 git init
 git status
 git config --local user.name "Joao Paulo"
