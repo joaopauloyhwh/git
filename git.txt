@@ -1,0 +1,19 @@
+git init
+git status
+git config --local user.name "Joao Paulo"
+git config --local user.email "joaopauloyhwh@gmail.com"
+git add k8s-RKE-Rancher.txt 
+git config user.name
+git config user.email
+git status
+git commit -m "k8s com RKE e Rancher v1" 
+git log
+git log --oneline
+vim .gitignore
+git commit -m "Adicionando o Gitignore"
+git add .gitignore
+git remote -v
+git remote add origin https://github.com/joaopauloyhwh/k8s-rke-rancher.git
+git remote -v
+git push  origin master
+
